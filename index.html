@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Révision INFAS SVT</title>
-  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-<div id="root"></div>
-<script type="text/babel">
-/* --- colle ici le contenu du fichier .docx fourni --- */
-// (le code React que tu as déjà commencé avec les thèmes/questions)
-</script>
+<body class="bg-slate-50 p-6">
+  <div class="max-w-3xl mx-auto bg-white shadow rounded p-6">
+    <h1 class="text-2xl font-bold mb-4">Révision INFAS – SVT</h1>
+
+    <h2 class="text-xl font-semibold mt-4">THÈME 1 – Le fonctionnement du cœur</h2>
+    <ul class="list-disc ml-6 mt-2 space-y-1">
+      <li>Automatisme cardiaque : nœud sinusal (70 bpm).</li>
+      <li>Cycle cardiaque : 0,8 s.</li>
+      <li>Débit cardiaque = Fréquence × Volume d’éjection.</li>
+    </ul>
+
+    <h2 class="text-xl font-semibold mt-6">Quiz flash (2 questions)</h2>
+    <ol class="list-decimal ml-6 mt-2 space-y-3">
+      <li>
+        Quel est le pacemaker naturel du cœur ?
+        <button class="ml-2 px-2 py-1 bg-blue-500 text-white rounded">Nœud sinusal</button>
+      </li>
+      <li>
+        Durée moyenne d’un cycle cardiaque ?
+        <button class="ml-2 px-2 py-1 bg-blue-500 text-white rounded">0,8 s</button>
+      </li>
+    </ol>
+
+    <footer class="mt-8 text-sm text-gray-500">
+      Contenu basé sur le document de révision INFAS.
+    </footer>
+  </div>
 </body>
 </html>
